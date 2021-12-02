@@ -1,0 +1,13 @@
+.item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+
+    .checkbox {
+        margin: 0 10px 0 0;
+    }
+
+    .btn {
+        flex-shrink: 0;
+    }
+}

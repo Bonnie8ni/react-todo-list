@@ -1,0 +1,39 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        border: 1px solid #ddd;
+        width: 400px;
+        margin: 150px 0 0 0;
+        padding: 20px;
+
+        .filter {
+            .filter-item {
+                margin-bottom: 10px;
+                width: 100%;
+            }
+        }
+
+        .send {
+            display: flex;
+            
+            .btn-send {
+                flex-shrink: 0;
+            }
+        }
+
+        .more {
+            margin: 0 0 10px 0;
+
+            .btn-archive {
+                margin: 0 10px 0 0;
+            }
+        }
+        
+        .content {
+            margin: 10px 0;
+        }
+    }
+}
