@@ -12,8 +12,7 @@ export const callApi = (requestUrl, method, params = {}) => {
     return fetch(requestUrl, {
         headers: {
             Accept: 'application/json',
-            'Content-Type': 'application/json',
-            'Project-Name': localStorage.getItem('projectName'),
+            'Content-Type': 'application/json'
         },
         body: postJson,
         method: method,
